@@ -1,0 +1,278 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+/* Header Section */
+ .header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+
+a {  
+    text-decoration: none; 
+}
+ .logo {
+  display: flex;
+  align-items: center;     
+  gap: 10px;               
+  text-decoration: none;
+}
+
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+
+ .schoolerpro {
+  display: flex;
+  align-items: baseline;
+}
+
+.schooler {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #2E7AF4;
+}
+
+.pro {
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #2E7AF4;
+  margin-left: 4px;
+}
+
+ .nav-links {
+  display: flex;
+  list-style: none;       
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2E7AF4;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+ 
+
+ a:visited {
+  color: #2E7AF4;
+}
+
+ a.btn {
+  color: #ffffff;
+  background-color: #2E7AF4;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1A5ED8;
+}
+
+}
+
+
+/*  hero */
+.hero {
+  background-color: #E9F1FF;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* about */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fabb78;
+}
+
+/*  team */ 
+.team {
+  background-color: #F4F6FA;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/*  mission     */
+
+.mission {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #78ffff;
+}
+
+/*  work */
+.work {
+  background-color: #abfe73;
+  padding: 60px 20px;
+  text-align: center;
+}
+/*  learning */
+
+.learning {
+ background-color: #78ffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+/*  blogs   */
+.blogs {
+  background-color: #789bfa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/*  contact us   */
+.contact {
+     background-color: #fabb78;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* footer Section */
+
+.footer {
+  background-color: #1E2734;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 60px 80px 20px;
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 35px;
+  height: auto;
+}
+
+.footer-logo h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer p {
+  font-size: 14px;
+  color:#E1E1E1;
+;
+  margin: 10px 0;
+}
+
+.footer .follow {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.social-icons a {
+  color: #E1E1E1;
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #2E7AF4;
+  transform: scale(1.2);
+}
+
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color:#E1E1E1;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #2E7AF4;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.subscribe-form button {
+  background-color: #2E7AF4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #1A5ED8;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #2c3852;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 13px;
+  color:#E1E1E1;
+
+}
+
+}
