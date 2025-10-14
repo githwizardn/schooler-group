@@ -98,7 +98,7 @@ a {
 /*  hero */
 .hero {
   height: 90vh;  
-  background-image: url('../img/hero.png');  
+  background-image: url('img/hero.png');  
   background-size: cover;        
   background-position: center;   
   background-repeat: no-repeat;  
