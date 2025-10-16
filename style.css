@@ -275,11 +275,32 @@ a {
 
 /*  mission     */
 
-.mission {
-  padding: 60px 20px;
+.mission-vision-section {
+  padding: 80px 0;
+  background-color: #ffffff;
   text-align: center;
-  background-color: #78ffff;
 }
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 50px;
+}
+.sub-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+
+}
+.text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #500;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
 
 /*  work */
 .work {
