@@ -302,11 +302,168 @@ a {
 }
 
 /*  contact us   */
-.contact {
-     background-color: #fabb78;
-  padding: 60px 20px;
-  text-align: center;
+/* CONTACT SECTION */
+.contact-section {
+  background: #fff;
+  padding: 80px 20px;
+  font-family: 'Lato', sans-serif;
 }
+
+.contact-container {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* LEFT SIDE */
+.contact-info {
+  flex: 1;
+  min-width: 320px;
+  max-width: 600px;
+}
+
+.section-subtitle {
+  color: #2E7AF4;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+
+
+.contact-desc {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.next-step-title {
+  color: #2E7AF4;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* STEPS */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  padding-left: 35px;
+}
+
+.steps::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 5px;
+  bottom: 5px;
+  width: 2px;
+  background: #2E7AF4;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+}
+
+.step-number {
+  min-width: 40px;
+  height: 40px;
+  background: rgba(46, 122, 244, 0.15);
+  color: #2E7AF4;
+  font-weight: 700;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.step p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* RIGHT SIDE (FORM) */
+.contact-form {
+  flex: 1;
+  min-width: 350px;
+  max-width: 500px;
+  background: #f8f9fa;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+  border-color: #2E7AF4;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row > div {
+  flex: 1;
+}
+
+.contact-form button {
+  background: #2E7AF4;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #1A5ED8;
+}
+
+ 
+
 
 /* footer Section */
 
